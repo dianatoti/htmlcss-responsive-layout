@@ -1,0 +1,9 @@
+/* Soluzione qui */
+
+/* Modalità Tablet*/
+ /* HEADER */
+@media screen and (min-width: 768px) {
+    #topbar {
+        justify-content: flex-start;
+    }
+}
