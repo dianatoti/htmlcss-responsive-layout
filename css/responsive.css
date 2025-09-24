@@ -1,9 +1,50 @@
 /* Soluzione qui */
 
 /* Modalità Tablet*/
- /* HEADER */
+/* HEADER */
 @media screen and (min-width: 768px) {
     #topbar {
         justify-content: flex-start;
     }
-}
+
+    /* MAIN */
+    .container {
+        padding: 25px;
+    }
+
+    .recipe-name {
+        font-size: 35px;
+    }
+
+    .recipe-origin {
+        display: inline;
+    }
+
+    .quick-notes ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        gap: 0px 70px;
+    }
+
+    .social-networks {
+        justify-content: center;
+    margin-bottom: 30px;
+    }
+
+    .btn i {
+        padding: 2px 35px;
+    }
+
+    .ads {
+        display: inline;
+    }
+
+    .clearfix {
+        display: block;
+    }
+
+    .clearfix img {
+        float: left;
+        margin: 10px;
+    }
