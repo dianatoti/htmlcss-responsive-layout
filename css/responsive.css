@@ -103,3 +103,13 @@
         align-items: center;
     }
 }
+
+/* Modalità Large Mobile */
+@media screen and (min-width: 576px) {
+/* MAIN */
+.social-networks {
+    justify-content: center;
+    gap: 70px;
+}
+}
+
